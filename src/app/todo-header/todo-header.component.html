@@ -1,0 +1,17 @@
+<header>
+    <nav>
+
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="form">
+        <input type="text" [(ngModel)]="title"  placeholder="Ajoutez une tâche">
+        <button (click)="sendTaskName()" >Ajouter</button>
+    </div>
+
+</header>
+

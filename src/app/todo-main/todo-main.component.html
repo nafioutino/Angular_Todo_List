@@ -1,0 +1,18 @@
+<!-- Header -->
+<header>
+<app-todo-header (passTaskName)="receiveTaskName($event)" ></app-todo-header>
+</header>
+
+
+<!-- Main -->
+
+<main>
+<app-todo-list [taskName]="getTaskName"></app-todo-list>
+</main>
+
+
+<!-- Footer -->
+
+<footer>
+
+</footer>
