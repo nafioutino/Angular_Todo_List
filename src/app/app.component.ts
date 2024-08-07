@@ -1,5 +1,4 @@
 import { Component,OnInit } from '@angular/core';
-import { GetDateService } from './services/get-date.service';
 
 @Component({
   selector: 'app-root',
@@ -7,11 +6,13 @@ import { GetDateService } from './services/get-date.service';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  dJour!:string;
-  constructor(private today:GetDateService){}
+  // dJour!:string;
+  // constructor(private today:GetDateService){}
 
-  ngOnInit():void{
-    this.dJour=this.today.dateDuJour()
-  }
+  // ngOnInit():void{
+  //   this.dJour=this.today.dateDuJour()
+  // }
+
+
   title = 'myApp';
 }

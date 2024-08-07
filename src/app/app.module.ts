@@ -7,20 +7,20 @@ import { AppComponent } from './app.component';
 import { TodoHeaderComponent } from './todo-header/todo-header.component';
 import { TodoListComponent } from './todo-list/todo-list.component';
 import { TodoMainComponent } from './todo-main/todo-main.component';
-import { MyModule } from './my-module/my-module.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     TodoHeaderComponent,
     TodoListComponent,
-    TodoMainComponent
+    TodoMainComponent,
+  
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    MyModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

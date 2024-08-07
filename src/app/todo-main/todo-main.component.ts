@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { MyServiceService } from '../my-service.service';
 
 @Component({
   selector: 'app-todo-main',
@@ -8,12 +7,6 @@ import { MyServiceService } from '../my-service.service';
 })
 export class TodoMainComponent {
   message!:string;
-
-  constructor(private myService:MyServiceService){}
-
-  ngOnInit():void{
-    this.message=this.myService.getHello();
-  }
 
 
   getTaskName!:string;
