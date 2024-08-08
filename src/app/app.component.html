@@ -1,7 +1,28 @@
-<!-- Header -->
-<div>
-<app-todo-main></app-todo-main>
-</div>
+<header>
+    <nav>
+        <a routerLink="/home">Home</a>
+        <a routerLink="/about">About</a>
+        <a routerLink="/dashboard">Dashboard</a>
+        <a routerLink="/user/123456789">User</a>
+    </nav>
+</header>
 
-<app-wrong-message></app-wrong-message>
-<app-right-message></app-right-message>
+
+
+
+
+<main>
+    <div>
+        <router-outlet></router-outlet>
+    </div>
+</main>
+
+
+
+
+
+
+<footer>
+
+
+</footer>

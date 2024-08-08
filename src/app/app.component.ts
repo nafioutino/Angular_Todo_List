@@ -1,4 +1,5 @@
 import { Component,OnInit } from '@angular/core';
+import { RouterLink, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -6,12 +7,6 @@ import { Component,OnInit } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  // dJour!:string;
-  // constructor(private today:GetDateService){}
-
-  // ngOnInit():void{
-  //   this.dJour=this.today.dateDuJour()
-  // }
 
 
   title = 'myApp';
